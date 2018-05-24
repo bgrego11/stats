@@ -1,0 +1,13 @@
+{% if sighting %}
+<h2>{{sighting.comments}}</h2>
+<ul>
+    <li>Date: {{sighting.datetime}}</li>
+    <li>City: {{sighting.city}}</li>
+    <li>state: {{sighting.state}}</li>
+    <li>country: {{sighting.country}}</li>
+    <li>shape: {{sighting.shape}}</li>
+</ul>
+
+{% else %}
+{% endif %}
+

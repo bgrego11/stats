@@ -1,0 +1,6 @@
+[client]
+database = statDB
+host = localhost
+user = root
+password = iniesta79
+default-character-set = utf8
